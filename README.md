@@ -94,9 +94,9 @@ Desarrollado por **María Guadalupe Hernández Alvirde**.
 - Se recomienda revisar los strings y recursos gráficos antes de compilar para evitar errores de visualización.
 
 ##Imagenes
-img/img1.png
-img/img2.png
-img/img3.png
-img/img4.png
-img/img5.png
-img/img6.png
+![Imagen1](images/img1.png)
+![Imagen2](images/img2.png)
+![Imagen3](images/img3.png)
+![Imagen4](images/img4.png)
+![Imagen5](images/img5.png)
+![Imagen6](images/img6.png)
