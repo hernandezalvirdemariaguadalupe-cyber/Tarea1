@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#001F3F"
+    android:padding="16dp">
+
+    <!-- ScrollView para contenido -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <!-- Título -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Botones en Cultura Coreana"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:paddingBottom="16dp" />
+
+            <!-- Explicación -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Los botones permiten que el usuario realice acciones. Por ejemplo, mostrar nombres de bandas de K-pop o festivales coreanos."
+                android:textColor="@color/white"
+                android:paddingBottom="16dp" />
+
+            <!-- Button normal -->
+            <Button
+                android:id="@+id/btnNormal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Presiona para banda K-pop"
+                android:layout_marginBottom="16dp"
+                android:background="@drawable/boton_1"
+                android:textColor="@color/white"/>
+
+            <!-- ImageButton -->
+            <ImageButton
+                android:id="@+id/imgBtn"
+                android:layout_width="300dp"
+                android:layout_height="200dp"
+                android:src="@drawable/festival"
+                android:contentDescription="Festival Coreano"
+                android:background="?android:attr/selectableItemBackgroundBorderless"
+                android:scaleType="fitCenter"
+                android:layout_marginBottom="16dp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <!-- FloatingActionButton flotando sobre todo -->
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="16dp"
+        android:contentDescription="Grupo K-pop"
+        app:backgroundTint="@color/white"
+        app:fabSize="normal"
+        app:srcCompat="@drawable/home"
+        app:tint="@null"
+        android:scaleType="center"
+        app:maxImageSize="24dp" />
+
+</FrameLayout>

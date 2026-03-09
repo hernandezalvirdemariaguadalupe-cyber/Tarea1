@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#001F3F"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!-- Título -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Elementos de Selección en Cultura Coreana"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:paddingBottom="16dp" />
+
+        <!-- Explicación -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Los elementos de selección permiten al usuario elegir opciones como comidas, festivales o hábitos culturales."
+            android:textColor="@color/white"
+            android:paddingBottom="16dp" />
+
+        <!-- CheckBoxes -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:text="Selecciona tus comidas coreanas favoritas:" />
+
+        <CheckBox
+            android:id="@+id/cbKimchi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:text="Kimchi" />
+
+        <CheckBox
+            android:id="@+id/cbBibimbap"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:text="Bibimbap" />
+
+        <CheckBox
+            android:id="@+id/cbTteokbokki"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:text="Tteokbokki"
+            android:layout_marginBottom="16dp" />
+
+        <!-- RadioButtons -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:text="Selecciona un festival coreano:" />
+
+        <RadioGroup
+            android:id="@+id/radioFestivales"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:textColor="@color/white"
+            android:layout_marginBottom="16dp">
+
+            <RadioButton
+                android:id="@+id/rbChuseok"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:text="Chuseok" />
+
+            <RadioButton
+                android:id="@+id/rbSeollal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:text="Seollal" />
+
+            <RadioButton
+                android:id="@+id/rbBoryeong"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:text="Boryeong Mud Festival" />
+        </RadioGroup>
+
+        <!-- Switch -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:text="¿Usas Hanbok en festivales?" />
+
+        <Switch
+            android:id="@+id/switchHanbok"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sí/No"
+            android:textColor="@color/white"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Botón para mostrar selección -->
+        <Button
+            android:id="@+id/btnMostrarSeleccion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/boton_3"
+            android:textColor="@color/white"
+            android:text="Mostrar selección" />
+
+
+        <!-- Resultado -->
+        <TextView
+            android:id="@+id/txtResultadoSeleccion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:background="@drawable/boton_2"
+            android:textColor="@color/white"
+            android:paddingTop="16dp" />
+
+    </LinearLayout>
+</ScrollView>

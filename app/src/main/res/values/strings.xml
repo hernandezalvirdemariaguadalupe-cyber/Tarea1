@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">CulturaCoreana</string>
+
+    <!-- Fragment TextFields -->
+    <string name="titulo_gastronomia">Gastronomía en Cultura Coreana</string>
+    <string name="descripcion_textfields">Los campos de texto permiten que el usuario escriba información, por ejemplo nombres de platos coreanos.</string>
+    <string name="hint_comida">Escribe tu comida coreana favorita</string>
+    <string name="boton_mostrar">Mostrar</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
